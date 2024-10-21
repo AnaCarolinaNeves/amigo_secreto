@@ -1,0 +1,19 @@
+# Composer
+/vendor/
+
+# IDEs
+/.idea/
+/*.sublime-project
+/*.sublime-workspace
+/.vscode/
+
+# Ambiente local
+/.env
+*.local
+
+# Arquivos de log
+*.log
+
+# Outros arquivos temporários
+*.tmp
+*.temp
