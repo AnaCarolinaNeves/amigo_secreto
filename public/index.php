@@ -9,6 +9,11 @@ if ($uri == '/' || $uri == '/home') {
     $controller = new HomeController();
     $controller->index();
 
+} elseif ($uri == '/sorteio' && $request_method === 'POST') {
+    require '../app/controllers/SorteioController.php';
+    $controller = new SorteioController();
+    $controller->realizarSorteio();
+    
 } elseif ($uri == '/cadastrar') {
     require '../app/controllers/PessoaController.php';
     $controller = new PessoaController();

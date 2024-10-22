@@ -19,7 +19,12 @@
                     </div>
                 </div>
                 <div class="col-md-9 text-end">
-                    <a href="/cadastrar" class="btn btn-success">Cadastrar nova pessoa</a>
+                    <div class="d-flex justify-content-end">
+                        <a href="/cadastrar" class="btn btn-success me-2">Cadastrar nova pessoa</a>
+                        <form action="/sorteio" method="POST" class="d-inline">
+                            <button type="submit" class="btn btn-primary">Realizar Sorteio</button>
+                        </form>
+                    </div>
                 </div>
             </div>
 
