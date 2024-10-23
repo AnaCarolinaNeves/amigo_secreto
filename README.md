@@ -15,6 +15,6 @@ Este repositório foi criado para o desenvolvimento do desafio amigo secreto pro
 ## Para rodar a aplicação 🖥️
 - Configuração do banco de dados MySQL:
   - Atualize o arquivo de configuração `/config/config.php` com as informações do seu banco de dados 
-  - Pelo terminal, execute o script sql `/caminho/para/o/projeto/amigo_secreto/database/migration.sql;`
+  - Pelo terminal, execute o script sql `source /caminho/para/o/projeto/amigo_secreto/database/migration.sql;`
 - Iniciar o servidor PHP:
   - `php -S localhost:8000 -t public` 
